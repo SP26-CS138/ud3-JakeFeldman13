@@ -1,0 +1,3 @@
+I chose to use a list to track gas fill-ups because each fill-up just adds to the last one in the list.
+There is no need to identify each specific fill-up with a key for key based lookups.
+The list keeps it simple and works by looking through all fill-ups not just individual ones, and adds up the total milage and cost from all the fill-ups in the list.
